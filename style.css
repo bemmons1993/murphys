@@ -1,0 +1,32 @@
+/* dark green background */
+.murphys-bg {
+  background-color: #004030 !important;
+}
+
+.grad-background {
+  background: url("background.png") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+
+
+footer {
+  background-color: #004030;
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.murphys-logo {
+  mix-blend-mode: screen; /* trying to blend with darker background */
+}
